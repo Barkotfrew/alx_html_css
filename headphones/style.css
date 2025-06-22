@@ -1,0 +1,21 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 1000px;
+  margin: auto;
+}
+
+a:hover, a:active {
+  color: #FF6565;
+}
+
+button:hover, button:active {
+  opacity: 0.9;
+}
+
+@media (max-width: 480px) {
+  body {
+    background-color: #f8f8f8;
+  }
+}
